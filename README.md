@@ -7,6 +7,12 @@
 
 ## set variables see `.env.template`
 
+### execute migration
+
+```
+npx prisma migrate dev
+```
+
 ### run program
 
 ```
@@ -20,5 +26,5 @@
 ### run migrations
 
 ```
-npx prisma migrate dev --name init
+npx prisma migrate dev --name $nameofchange
 ```
