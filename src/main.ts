@@ -22,6 +22,6 @@ async function bootstrap() {
     }),
   );
   await app.listen();
-  logger.log(`Products MS  running`);
+  logger.debug(`Products MS  running ${envs}`);
 }
 bootstrap();
