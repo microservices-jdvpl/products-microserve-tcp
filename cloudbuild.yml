@@ -4,7 +4,7 @@ steps:
       [
         "build",
         "-t",
-        "us-east1-docker.pkg.dev/microservices-store-449702/registry-image/orders-ms-prod",
+        "us-east1-docker.pkg.dev/microservices-store-449702/registry-image/products-ms-prod",
         "-f",
         "dockerfile.prod",
         "--platform=linux/amd64",
@@ -14,7 +14,7 @@ steps:
     args:
       [
         "push",
-        "us-east1-docker.pkg.dev/microservices-store-449702/registry-image/orders-ms-prod",
+        "us-east1-docker.pkg.dev/microservices-store-449702/registry-image/products-ms-prod",
       ]
 options:
   logging: CLOUD_LOGGING_ONLY
